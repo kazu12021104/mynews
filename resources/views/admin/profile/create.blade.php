@@ -37,12 +37,7 @@
                     <div class="form-group row">
                         <lavel class="col-md-2">性別</lavel>
                         <div class="col-md-10">
-                            <select name="job">
-                                <option value="">選択してください</option>
-                                <option value="men">男性</option>
-                                <option value="women">女性</option>
-                                <option value="they">その他</option>
-                            </select>
+                            <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
                         </div>
                     </div>
                     <div class="form-group row">
