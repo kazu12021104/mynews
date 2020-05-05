@@ -13,14 +13,9 @@ body {
   .caption {
     position: relative;
     width: 350px;
-    .image {
-      img {
-    width: 100%;
-      }
     }
-    .title {
+    .name {
       width: 100%;
-      position: absolute;
       bottom: 0;
       left: 0;
       background-color: rgba(0, 0, 0, 0.6);
@@ -28,8 +23,12 @@ body {
     color: #fff;
     font-size: 1.2em;
       }
+      h2 {
+        color: #fff;
+        font-size: 0.8em;
+      }
     }
-    .body {
+    .introduction {
       font-size: 0.8em;
     }
   }
@@ -41,17 +40,18 @@ body {
       font-size: 0.6em;
       color: #999999;
     }
-    .title {
+    .name {
       font-size: 1.2em;
       font-weight: bold;
     }
-    .body {
-      font-size: 0.8em;
+    .gender {
+      font-size: 0.6em;
     }
-    .image {
-      img {
-    width: 250px;
-      }
+    .hobby {
+      font-size: 1em;
+    }
+    .introduction {
+      font-size: 0.8em;
     }
   }
 }
