@@ -24,7 +24,7 @@ class ProfileController extends Controller
           unset($form['_token']);
           $profile->fill($form)->save();
         
-        return redirect('admin/profile/edit');
+        return redirect('admin/profile/');
     }
     
     public function index(Request $request)
@@ -60,7 +60,7 @@ class ProfileController extends Controller
         $profilehistory->edited_at = Carbon::now();
         $profilehistory->save();
         
-        return redirect('admin/profile/edit');
+        return redirect('admin/profile/');
     }
     
     public function delete(Request $request)
