@@ -4957,6 +4957,7 @@ input[type=button].btn-block {
 }
 
 .card {
+  color: #000;
   position: relative;
   display: flex;
   flex-direction: column;
